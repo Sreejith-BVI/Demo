@@ -28,8 +28,8 @@ class ViewController: UIViewController {
 extension ViewController{
     func setupUI(){
         validation.delegate = self
-        loginBtn.layer.cornerRadius = 10
-        loginBtn.layer.borderWidth = 5
+        loginBtn.layer.cornerRadius = 8
+        loginBtn.layer.borderWidth = 2
         loginBtn.layer.borderColor = UIColor.link.cgColor
     }
 }
